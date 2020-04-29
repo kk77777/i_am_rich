@@ -7,6 +7,11 @@ void main() {
         title: Text('I am Rich'),
         backgroundColor: Colors.blueGrey[900],
       ),
+      body: Center(
+        child: Image(
+          image: AssetImage('images/diamond.png'),
+        ),
+      ),
       backgroundColor: Colors.blueGrey,
     ),
   ));
